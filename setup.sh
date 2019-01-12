@@ -3,4 +3,3 @@ chmod +x Anaconda3-5.3.1-Linux-x86_64.sh
 bash ./Anaconda3-5.3.1-Linux-x86_64.sh -b -f -p /usr/local
 conda update -n base conda
 conda install -y --prefix /usr/local -c conda-forge cartopy
-python setup.py
